@@ -1,7 +1,7 @@
 #Level Order Traversal Explanation with examples of Binary Tree
 
 
-<b># Explanation with examples</b>
+# Explanation with examples
 
 Consider the following binary tree:
 ```
