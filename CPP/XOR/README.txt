@@ -1,3 +1,5 @@
+XOR properties
+
 XOR is self-inverse.
     This means, any number XOR’ed with itself evaluates to 0.
     a^a = 0.
