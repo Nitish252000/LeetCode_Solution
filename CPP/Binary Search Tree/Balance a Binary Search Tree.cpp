@@ -5,6 +5,7 @@ void inorder(TreeNode* root, vector<int>&traversal){
         inorder(root->right,traversal);
     }
     TreeNode* construct(vector<int>&traversal, int start, int end){
+        //Base case: if start greater than end return NULL
         if(start>end)return NULL;
         int mid = start+(end-start)/2;
         TreeNode* node = new TreeNode(traversal[mid]);
