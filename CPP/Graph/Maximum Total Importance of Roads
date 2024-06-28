@@ -1,0 +1,15 @@
+long long maximumImportance(int n, vector<vector<int>>& roads) {
+        vector<long long>edges(n,0);
+        for(auto i:roads){
+            edges[i[0]]++;
+            edges[i[1]]++;
+        }
+        sort(edges.begin(), edges.end());
+        long long value = 1;
+        long long maxTotImp = 0;
+        for(auto i:edges){
+            maxTotImp +=value*i;
+            value++;
+        }
+        return maxTotImp;
+    }
