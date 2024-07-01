@@ -1,0 +1,20 @@
+ // Comparator function to sort boxTypes in descending order based on the number of units per box
+    static bool comp(const vector<int>& a, const vector<int>& b) {
+        return a[1] > b[1];
+    }
+    // Function to calculate the maximum number of units that can be loaded onto the truck
+    int maximumUnits(vector<vector<int>>& boxTypes, int truckSize) {
+        // Sort the boxTypes vector using the comparator function 'comp'
+        sort(boxTypes.begin(), boxTypes.end(), comp);
+        int ans = 0; // Initialize the answer to 0
+        // Iterate through each type of box in the sorted boxTypes vector
+        for (const auto& box : boxTypes) {
+            int mini = min(truckSize, box[0]); // Find the number of boxes that can be loaded onto the truck
+            ans += mini * box[1]; // Calculate and add the units of these boxes to the answer
+            truckSize -= mini;    // Decrease the remaining truck capacity
+            // If the truck is full, break out of the loop
+            if (truckSize == 0)
+                break;
+        }
+        return ans; // Return the maximum number of units that can be loaded onto the truck
+    }
