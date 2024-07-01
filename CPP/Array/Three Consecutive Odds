@@ -1,0 +1,10 @@
+bool helper(vector<int>&arr, int n){
+        if(n>arr.size()-3)return false;
+        if(arr[n]%2==1 && arr[n+1]%2==1 && arr[n+2]%2==1)return true;
+        return helper(arr,n+1);
+    }
+    bool threeConsecutiveOdds(vector<int>& arr) {
+        int n = arr.size();
+        if(n<3)return false;
+        return helper(arr,0);
+    }
