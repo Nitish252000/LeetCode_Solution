@@ -29,3 +29,9 @@ int main() {
     }
     return 0;
 }
+/*
+We try different lengths for the first number in the sequence.
+For each possible starting length, we check if the rest of the string can be split into consecutive numbers.
+If we find a valid sequence, we return true.
+If no valid sequence is found after trying all possibilities, we return false.
+*/
