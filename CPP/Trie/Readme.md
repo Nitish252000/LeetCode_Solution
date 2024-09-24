@@ -1,7 +1,8 @@
 A Trie (pronounced "try") is a special type of tree data structure used primarily for storing strings, where each node represents a single character of the string. It is often called a prefix tree because it is very efficient at searching and storing prefixes of words.
 
 **Key Features of a Trie:**
-  *Nodes for Each Character:
+
+  Nodes for Each Character:
     Each node in the trie represents a character of the string.
     The path from the root to any node forms a prefix of some string in the dataset.
   -Root Node:
