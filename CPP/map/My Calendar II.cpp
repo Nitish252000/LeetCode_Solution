@@ -1,3 +1,17 @@
+/*
+Approach
+1./ Booking a New Event:
+When a new event [start, end) is added, it is first checked against the list of previously overlapped intervals (overlaps). These intervals represent ranges where two events are already overlapping.
+
+2./ Checking for Triple Booking:
+If the new event overlaps with any of the stored intervals in overlaps, that means there will be a triple booking in that time range, so we return false.
+
+3./ Updating Overlap List:
+If no triple booking is found, we then check the new event against the list of existing events to see if it overlaps with any of them. If it does, the intersection (overlap) of these two events is calculated and stored in the overlaps list for future checks.
+
+4./ Adding the Event:
+Finally, if no triple booking is detected, the new event is added to the list of events.
+*/
 class MyCalendarTwo {
 public:
     vector<pair<int,int>>events;
