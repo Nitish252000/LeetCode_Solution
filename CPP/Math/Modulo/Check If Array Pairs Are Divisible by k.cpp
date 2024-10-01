@@ -32,3 +32,36 @@ public:
         return true;
     }
 };
+
+
+// -Brute-force approach
+//     The brute-force approach has a time complexity of O(𝑛2), which is inefficient for large inputs.
+//     This logic doesn't ensure that all elements are used in pairs.
+
+// -Remainder-based approach
+
+//     For each element arr[i], compute its remainder when divided by k (i.e., arr[i] % k).
+    
+//     To form a valid pair, for a number with remainder r, we need another number with remainder (k - r) % k.
+    
+//     Special cases include handling elements with remainder 0, where we need an even number of such elements.
+
+//      To handle negative numbers, we normalize the remainder using ((num % k) + k) % k.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
