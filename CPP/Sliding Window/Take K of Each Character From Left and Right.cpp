@@ -2,9 +2,9 @@ class Solution {
 public:
     int takeCharacters(string s, int k) {
         unordered_map<char, int> mp;
-        mp['a'] = 0;
-        mp['b'] = 0;
-        mp['c'] = 0;
+        // mp['a'] = 0;
+        // mp['b'] = 0;
+        // mp['c'] = 0;
         for (auto i : s) {
             mp[i]++;
         }
