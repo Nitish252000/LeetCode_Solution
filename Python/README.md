@@ -4,7 +4,9 @@ The enumerate() function in Python is used to add a counter to an iterable, such
   Here are some key points about the enumerate() function:
 
   **Syntax:** The basic syntax is enumerate(iterable, start=0), where iterable is the sequence you want to iterate over, and start is the index number you want to start from (default is 0).
+  
   **Usage:** The function is commonly used in loops to get both the index and the value of each element in the iterable. For example:
+  
   items = ['apple', 'banana', 'cherry']
   for i, item in enumerate(items):
     print(f"Index {i}: {item}")
