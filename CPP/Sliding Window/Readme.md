@@ -1,5 +1,4 @@
-**The Sliding Window technique is useful for problems involving contiguous subarrays or substrings.
-**
+**The Sliding Window technique is useful for problems involving contiguous subarrays or substrings.**
 
 The sliding window concept is a useful technique in computer science, particularly for solving problems that involve arrays or lists. It is used to maintain a subset of elements within a larger set, dynamically adjusting which elements are included in the subset as you process the set. This technique is efficient for solving problems related to subarrays or sublists, especially when trying to find the maximum, minimum, or specific properties of subarrays.
 
