@@ -11,10 +11,12 @@ As we iterate through the array, we make a decision at each step:
 This decision is made based on whether adding the new number increases or decreases the sum.
 
 **2. Kadane's Algorithm in Action**
+
 We maintain:
 
     cur_max → Tracks the maximum subarray sum ending at the current element.
     max_sum → Stores the overall maximum subarray sum found so far.
+
 Algorithm Steps:
 
     Start with cur_max = 0 and max_sum = 0 (or INT_MIN for negative numbers).
