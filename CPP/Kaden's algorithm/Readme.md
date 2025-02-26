@@ -3,6 +3,7 @@
 Kadane’s algorithm is an optimized approach to find the maximum subarray sum in O(n) time complexity, avoiding the brute-force O(n²) or O(n³) solutions.
 
 **1. Key Idea: Expand or Restart?**
+
 As we iterate through the array, we make a decision at each step:
 
 Should we extend the current subarray? (Adding num to the ongoing sum)
