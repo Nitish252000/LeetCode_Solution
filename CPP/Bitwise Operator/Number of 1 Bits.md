@@ -1,9 +1,7 @@
 ▶️ Dry Run with n = 11 (1011)
 Initialize:
 
-cpp
-Copy
-Edit
+
 cnt = 0
 n   = 11 → 1011
 1st iteration:
