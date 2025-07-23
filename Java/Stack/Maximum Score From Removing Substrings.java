@@ -40,3 +40,6 @@ class Solution {
         return points;
     }
 }
+
+
+// Use StringBuilder instead of string &s (reference) in Java to allow in-place modifications
