@@ -4,7 +4,7 @@
 - **& (Bitwise AND):** Returns 1 if both corresponding bits are 1, otherwise 0. 
 - **| (Bitwise OR):** Returns 1 if at least one corresponding bit is 1, otherwise 0. 
 - **^ (Bitwise XOR):** Returns 1 if corresponding bits are different, otherwise 0. 
-- **~ (Bitwise Complement):** Inverts all bits (0 becomes 1, 1 becomes 0). In Java, this uses two’s complement, so ~n equals -(n + 1).
+- ~ (Bitwise Complement):Inverts all bits (0 becomes 1, 1 becomes 0). In Java, this uses two’s complement, so ~n equals -(n + 1).
 
 ## Shift Operators
 - **<< (Left Shift)**: Shifts bits left by specified positions; equivalent to multiplying by 2^n. 
