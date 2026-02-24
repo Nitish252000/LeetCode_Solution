@@ -26,6 +26,7 @@ C++ provides a built-in function:
             cout << sub;  // Output: cde
         }
 🔹 2️⃣ Generate All Substrings (Brute Force)
+
 Method 1: Using start & length
 
         for (int i = 0; i < n; i++) {
