@@ -41,13 +41,12 @@ O(N²) substrings
 O(N) copy time for each substring
 
 Method 2: Using start & end index
-for (int i = 0; i < n; i++) {
-    for (int j = i; j < n; j++) {
-        string sub = s.substr(i, j - i + 1);
-        cout << sub << endl;
-    }
-}
 
-Here:
+        for (int i = 0; i < n; i++) {
+            for (int j = i; j < n; j++) {
+                string sub = s.substr(i, j - i + 1);
+                cout << sub << endl;
+            }
+        }
 
-Length = j - i + 1
+Here: Length = j - i + 1
