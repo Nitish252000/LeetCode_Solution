@@ -2,14 +2,13 @@
 A substring is a contiguous sequence of characters inside a string.
 
 Example:
-
-string s = "abcdef";
+        
+    string s = "abcdef";
 
 Substrings:
 
-"a", "ab", "abc", "bcd", "cdef", etc.
-🔹 1️⃣ Using substr() in C++
-
+    "a", "ab", "abc", "bcd", "cdef", etc.
+**Using substr() in C++:**
 C++ provides a built-in function:
 
 string substr (size_t pos = 0, size_t len = npos) const;
