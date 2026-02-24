@@ -8,7 +8,7 @@ Example:
 Substrings:
 
     "a", "ab", "abc", "bcd", "cdef", etc.
-** 🔹 2️⃣Using substr() in C++:**
+** Using substr() in C++:**
 C++ provides a built-in function:
 
         string substr (size_t pos = 0, size_t len = npos) const;
@@ -25,7 +25,7 @@ C++ provides a built-in function:
             string sub = s.substr(2, 3);
             cout << sub;  // Output: cde
         }
-🔹 2️⃣ Generate All Substrings (Brute Force)
+**Generate All Substrings (Brute Force)**
 
 Method 1: Using start & length
 
