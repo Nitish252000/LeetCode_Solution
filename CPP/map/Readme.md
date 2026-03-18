@@ -28,7 +28,12 @@
 | **Iterator Validity** | Stable (not invalidated easily)         | Can be invalidated on rehash             |
 | **Key Requirement** | Requires `<` comparison operator          | Requires hash function                   |
 
-
+## Key Difference in Implementation
+| Feature    | `map`            | `unordered_map` |
+| ---------- | ---------------- | --------------- |
+| Structure  | Tree             | Hash Table      |
+| Core logic | Comparison (`<`) | Hashing         |
+| Complexity | O(log n)         | O(1) avg        |
 
 
 
