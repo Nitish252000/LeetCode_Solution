@@ -32,21 +32,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**Iterator on C++ Map**
+## **Iterator on C++ Map**
 In C++, a map is a container that stores key-value pairs, where each key is unique and maps to a specific value. There are several ways to iterate over the elements of a map, depending on your needs and the C++ version you’re using. Here are some common methods:
 
 **Range-based for loop (C++11 and later):**
