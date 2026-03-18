@@ -1,9 +1,9 @@
-## Map
-**std::map** in C++ is a sorted associative container that stores key-value pairs with unique keys.  
-It is implemented as a self-balancing binary search tree (typically a red-black tree), ensuring that operations like insertion, deletion, and lookup have logarithmic time complexity O(log n).  
-Elements are automatically sorted by key using a comparison function (defaulting to std::less<Key>), which allows efficient range queries and ordered traversal. 
+# Map
+- **std::map** in C++ is a sorted associative container that stores key-value pairs with unique keys.  
+- It is implemented as a self-balancing binary search tree (typically a red-black tree), ensuring that operations like insertion, deletion, and lookup have logarithmic time complexity O(log n).  
+- Elements are automatically sorted by key using a comparison function (defaulting to std::less<Key>), which allows efficient range queries and ordered traversal. 
 
-Key Features:
+## Key Features:
 - Unique Keys: Each key in a std::map must be unique. 
 - Sorted Order: Elements are stored in ascending order based on keys. 
 - Efficient Operations: insert(), erase(), find(), and count() operate in O(log n) time.
