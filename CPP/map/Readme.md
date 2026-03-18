@@ -4,12 +4,11 @@ It is implemented as a self-balancing binary search tree (typically a red-black 
 Elements are automatically sorted by key using a comparison function (defaulting to std::less<Key>), which allows efficient range queries and ordered traversal. 
 
 Key Features:
--Unique Keys: Each key in a std::map must be unique. 
--Sorted Order: Elements are stored in ascending order based on keys. 
--Efficient Operations:
--insert(), erase(), find(), and count() operate in O(log n) time.
--operator[] and at() provide fast access with automatic insertion if the key does not exist.
--Member Functions: insert(), erase(), find(), count(), at(), begin(), end(), empty(), size(), clear(), swap(), lower_bound(), upper_bound(), equal_range(), and contains() (C++20). 
+- Unique Keys: Each key in a std::map must be unique. 
+- Sorted Order: Elements are stored in ascending order based on keys. 
+- Efficient Operations: insert(), erase(), find(), and count() operate in O(log n) time.
+- operator[] and at() provide fast access with automatic insertion if the key does not exist.
+- Member Functions: insert(), erase(), find(), count(), at(), begin(), end(), empty(), size(), clear(), swap(), lower_bound(), upper_bound(), equal_range(), and contains() (C++20). 
 
 
 
