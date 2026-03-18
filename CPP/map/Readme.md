@@ -16,10 +16,10 @@
 3. When ordering and uniqueness are important.
    
 ## Comparison with std::unordered_map:
-**Feature	             std::map	                                      std::unordered_map**
-Order	                   Sorted by key	                                Unordered
-Time Complexity	       O(log n) for most operations	                    O(1) average, O(n) worst case
-Use Case	             When order matters or range queries needed	  When fastest average access is needed
+**Feature	             std::map	                                      std::unordered_map**\\
+Order	                   Sorted by key	                                Unordered\\
+Time Complexity	       O(log n) for most operations	                    O(1) average, O(n) worst case\\
+Use Case	             When order matters or range queries needed	  When fastest average access is needed\\
 
 
 
