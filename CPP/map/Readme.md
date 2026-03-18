@@ -15,11 +15,18 @@
 2. When you frequently perform range queries (e.g., all keys between two values). 
 3. When ordering and uniqueness are important.
    
-## Comparison with std::unordered_map:
-**Feature	             std::map	                                      std::unordered_map**\\
-Order	                   Sorted by key	                                Unordered\\
-Time Complexity	       O(log n) for most operations	                    O(1) average, O(n) worst case\\
-Use Case	             When order matters or range queries needed	  When fastest average access is needed\\
+## Comparison: `std::map` vs `std::unordered_map`
+
+| Feature            | `std::map`                                  | `std::unordered_map`                     |
+|------------------|----------------------------------------------|------------------------------------------|
+| **Order**         | Sorted by key (ascending order)              | Unordered (no guaranteed order)          |
+| **Implementation**| Balanced BST (Red-Black Tree)               | Hash Table                               |
+| **Time Complexity** | O(log n) for insert, delete, search        | O(1) average, O(n) worst case            |
+| **Traversal**     | In-order traversal (sorted output)           | No order in traversal                    |
+| **Use Case**      | When order matters or range queries needed   | When fastest average access is needed    |
+| **Memory Usage**  | Less (no hash overhead)                     | More (due to hashing & buckets)          |
+| **Iterator Validity** | Stable (not invalidated easily)         | Can be invalidated on rehash             |
+| **Key Requirement** | Requires `<` comparison operator          | Requires hash function                   |
 
 
 
