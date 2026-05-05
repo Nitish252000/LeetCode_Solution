@@ -37,7 +37,7 @@ public:
         // }
         // return dummy->next;
 
-        if (head == NULL || k==0)
+        if (head == NULL || head->next == NULL || k == 0) // empty || single node || k is zero
             return head;
 
         // find length
@@ -48,12 +48,12 @@ public:
             len++;
         }
         k = k % len;
-        tail->next = head;  // Circular
+        tail->next = head; // Circular
 
         ListNode* newhead;
         int move = len - k;
-        int m = move-1;   // move just before new tail node
-        ListNode* newtail = head; 
+        int m = move - 1; // move just before new tail node
+        ListNode* newtail = head;
         while (m--) {
             newtail = newtail->next;
         }
